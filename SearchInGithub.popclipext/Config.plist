@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Version</key>
+	<integer>1</integer>
+	<key>Extension Name</key>
+	<string>Search in Github</string>
+	<key>Extension Description</key>
+	<string>Search in Github</string>
+	<key>Extension Identifier</key>
+	<string>com.githubtrending.popclip</string>
+	<key>Extension Image File</key>
+	<string>trending.png</string>
+	<key>Actions</key>
+	<array>
+		<dict>
+			<key>Regular Expression</key>
+			<string>(?s)^.{1,}$</string>
+			<key>Title</key>
+			<string>Search in Github</string>
+			<key>URL</key>
+			<string>https://github.com/search?q={popclip text}</string>
+		</dict>
+	</array>
+</dict>
+</plist>
